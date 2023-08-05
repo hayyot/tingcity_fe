@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "vue.vscode-typescript-vue-plugin",
+    "vue.volar",
+    "mrmaoddxxaa.create-uniapp-view",
+    "uni-helper.uni-app-schemas-vscode",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-rename-tag",
+    "uni-helper.uni-ui-snippets-vscode",
+    "uni-helper.uni-app-snippets-vscode",
+    "stylelint.vscode-stylelint",
+    "christian-kohler.path-intellisense",
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "vue"
+  ],
+  "path-intellisense.mappings": {
+    "@": "${workspaceFolder}/src",
+  },
+  "[vue]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true,
+      "source.fixAll.eslint": true
+    }
+  },
+  "files.eol": "\n",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  }
+}
