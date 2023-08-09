@@ -1,47 +1,47 @@
-// 全局样式文件
-// 因为微信小程序平台不支持*通配符，所以把所有可能用到的标签都写上
-// XXX 如果有其他方案，则修改
+// // 全局样式文件
+// // 因为微信小程序平台不支持*通配符，所以把所有可能用到的标签都写上
+// // XXX 如果有其他方案，则修改
 
-/* #ifdef MP-WEIXIN */
-view,
-button,
-text,
-image,
-input,
-textarea {
-  margin: 0;
+// /* #ifdef MP-WEIXIN */
+// view,
+// button,
+// text,
+// image,
+// input,
+// textarea {
+//   margin: 0;
 
-  padding: 0;
-  box-sizing: border-box;
-}
+//   padding: 0;
+//   box-sizing: border-box;
+// }
 
-/* #endif */
+// /* #endif */
 
-/* #ifndef MP-WEIXIN */
-* {
-  margin: 0;
+// /* #ifndef MP-WEIXIN */
+// * {
+//   margin: 0;
 
-  padding: 0;
-  box-sizing: border-box;
-}
+//   padding: 0;
+//   box-sizing: border-box;
+// }
 
-/* #endif */
+// /* #endif */
 
-// 强调文字
-.emphasize {
-  color: #17ce92;
-  text-decoration: underline;
-}
+// // 强调文字
+// .emphasize {
+//   color: #17ce92;
+//   text-decoration: underline;
+// }
 
-// 警示文字
-.danger {
-  color: #eb5757;
-}
+// // 警示文字
+// .danger {
+//   color: #eb5757;
+// }
 
-// 文字省略
-.ellipsis {
-  overflow: hidden;
+// // 文字省略
+// .ellipsis {
+//   overflow: hidden;
 
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
+//   text-overflow: ellipsis;
+//   white-space: nowrap;
+// }
