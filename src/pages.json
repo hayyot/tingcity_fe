@@ -3,7 +3,8 @@
     {
       "path": "pages/index",
       "style": {
-        "navigationBarTitleText": "uni-app"
+        "navigationBarTitleText": "uni-app",
+		"navigationStyle": "custom"
       }
     },{
 			"path": "pages/math/math",
