@@ -1,3 +1,4 @@
+<!-- 自定义导航栏组件 -->
 <template>
         <view class="navbar-box" :style="{ height: `${globalData.navHeight}px` }">
             <view class="navbar-content" :style="{ top: `${custom.top}px`, height: `${custom.height}px` }">
@@ -43,8 +44,8 @@ const navBarStyle = ref(props.navBarStyle);
                 align-items: center;
 				justify-content: center;
                 margin: 0rpx 13rpx;
-                font-size: 36rpx;
-				font-weight: bold;
+                font-size: 34rpx;
+				font-weight: 500;
             }
         }
     }
